@@ -1,0 +1,295 @@
+[
+    {
+        "id": 1,
+        "texto": "Has abandonado Rivendel y ahora tu y el resto de la Comunidad del Anillo os encontráis frente a las Montañas Nubladas.\nDebéis atravesarlas para poder llegar a Mordor y hay dos opciones.\n¿Cómo quieres cruzar las montañas?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Por arriba",
+                "escena": 2
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Por las minas",
+                "escena": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "texto": "Una tormenta de nieve y varios aludes os sorprenden mientras cruzáis las cimas de las montañas.\nBoromir, Legolas, Gimli y Sam no logran sobrevivir. La noche se acerca y debéis buscar un lugar donde dormir.\n¿Dónde quieres descansar?\n",
+        "puntosVida": -9,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Bosque de Fangorn",
+                "escena": 4
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Una cueva",
+                "escena": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "texto": "Decidís cruzar las minas de Moria donde tenéis un desafortunado encuentro con el Balrog y Gandalf muere, pero el resto conseguís escapar con vida.\nLa noche se acerca y debéis buscar un lugar donde dormir.\n¿Dónde quieres descansar?\n",
+        "puntosVida": -4,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Bosque de Fangorn",
+                "escena": 6
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Una cueva",
+                "escena": 7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "texto": "Habéis encontrado una zona donde descansar en el bosque de Fangorn pero en mitad de la noche los orcos os localizan y se llevan a Pippin y Merry pensando que uno de ellos es el portador del Anillo.\nAragorn, Boromir, Legolas y Gimli luchan contra los orcos y consiguen salvaros a Sam y a ti pero La Comunidad queda con 9 puntos de vida por lo que los miembros restantes no pueden llegar a Mordor.\n",
+        "puntosVida": -2,
+        "opciones": []
+    },
+    {
+        "id": 5,
+        "texto": "Habéis encontrado una cueva donde dormir pero estas tierras son peligrosas tanto por el día como por la noche y los ejércitos de los orcos enviados por Saruman acechan a todas horas.\nEn mitad de la noche os encuentran en la cueva, entran, os matan y recuperan el Anillo.\n",
+        "puntosVida": -11,
+        "opciones": []
+    },
+    {
+        "id": 6,
+        "texto": "Habéis encontrado una zona donde descansar en el bosque de Fangorn pero en mitad de la noche los orcos os localizan y se llevan a Pippin y Merry pensando que uno de ellos es el portador del Anillo.\nAragorn, Boromir, Legolas y Gimli luchan contra los orcos y consiguen salvaros a Sam y a ti.\nDebéis abandonar el bosque y continuar el camino, ¿qué quieres hacer?\n",
+        "puntosVida": -2,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Continuar por tierra",
+                "escena": 8
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Continuar por el río ",
+                "escena": 9
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "texto": "Habéis encontrado una cueva donde dormir pero estas tierras son peligrosas tanto por el día como por la noche y los ejércitos de los orcos enviados por Saruman acechan a todas horas.\nEn mitad de la noche os encuentran en la cueva, entran, os matan y recuperan el Anillo.\n",
+        "puntosVida": -16,
+        "opciones": []
+    },
+    {
+        "id": 8,
+        "texto": "Decidís continuar por tierra y, al salir del bosque, los elfos os interceptan. Estáis pasando cerca de Lothlorien, su reino y ven que uno de los suyos va con vosotros.\nLos elfos se están preparando para huir de la Tierra Media en dirección a Valinor y no dejarán atrás a Legolas.\n¿Qué quieres hacer?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Enfrentar a los elfos ",
+                "escena": 10
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Dejar ir a Legolas ",
+                "escena": 11
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "texto": "Encontráis dos canoas en un pequeño muelle al lado del bosque y decidís continuar vuestro camino por el río pero al llegar a la altura de Gondor, los ejércitos de orcos provenientes de Isengard esperan a las orillas del río y os atacan.\nLegolas y Aragorn consiguen salvaros a Sam y a ti pero no a Gimli y Boromir.\nLa Comunidad queda con 9 puntos de vida por lo que los miembros restantes no pueden llegar a Mordor.\n",
+        "puntosVida": -5,
+        "opciones": []
+    },
+    {
+        "id": 10,
+        "texto": "Decides enfrentar a los elfos pero, aunque no os superan en número, sí en fuerza y habilidad, y no perdonan el intento de ataque que acaban de sufrir por lo que os acaban derrotando.\n",
+        "puntosVida": -14,
+        "opciones": []
+    },
+    {
+        "id": 11,
+        "texto": "Legolas abandona la Comunidad para volver con los elfos.\nContinuáis el camino y os encontráis con los hombres de Gondor, los cuales reconocen a Aragorn y Boromir y deciden prestar su ayuda aunque no sabes si en un futuro querrán algo a cambio, ¿qué quieres hacer?\n",
+        "puntosVida": -3,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Aceptar ayuda",
+                "escena": 12
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Rechazar ayuda",
+                "escena": 13
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "texto": "Aceptas la ayuda de los hombres y os llevan a Minas Tirith donde os curan las heridas y reparan vuestras armas.\nEl senescal Denethor II anuncia que un ejército de orcos enviado por Saruman atacará Minas Tirith esa misma noche, ¿qué quieres hacer?\n",
+        "puntosVida": 2,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Huir antes de que lleguen los orcos",
+                "escena": 14
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Quedarse en Minas Tirith y luchar ",
+                "escena": 15
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "texto": "Sabes que el alma de los hombres se corrompe fácilmente y, al descubrir que llevas el anillo, podrían ser capaces de cualquier cosa con tal de quedárselo ellos, por lo que crees que es más sensato rechazar su ayuda.\nMientras transitáis las tierras de Gondor, un nuevo ejército de orcos se dirige a la ciudad de Minas Tirith y están a punto de encontraros pero lográis esconderos en una zona rocosa.\nUna vez pasan los orcos, continuáis vuestro camino. Estáis cerca de Mordor y debéis decidir por dónde continuar. ¿Qué quieres hacer?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Atravesar el río",
+                "escena": 16
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Atravesar los pantanos",
+                "escena": 17
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "texto": "Huís de Minas Tirith pero el ejército de orcos llega a la zona antes de lo esperado y os atrapan.\n",
+        "puntosVida": -13,
+        "opciones": []
+    },
+    {
+        "id": 15,
+        "texto": "Aragorn, Boromir y Gimli se unen al ejército de Gondor para combatir a los orcos mientras Sam y tu os refugiáis en la ciudad.\nLa batalla termina con victoria de los hombres pero han perdido a muchos de los suyos. Pasáis la noche en Minas Tirith y al día siguiente os preparáis para continuar el camino.\nEstáis cerca de Mordor y debéis decidir por dónde continuar. ¿Qué quieres hacer?\n",
+        "puntosVida": -2,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Atravesar el río",
+                "escena": 16
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Atravesar los pantanos",
+                "escena": 17
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "texto": "Atravesáis el río y llegáis a la ciudad de Osgiliath, donde se encuentra parte del ejército de Gondor para protegerla de posibles ataques.\n¿Qué quieres hacer?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Que Aragorn reclute a los hombres ",
+                "escena": 18
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Refugiarte en Osgiliath",
+                "escena": 19
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "texto": "Conseguís llegar hasta los pantanos. Una vez allí, los atravesáis y encontráis dos vías para llegar a Mordor.\n¿Qué quieres hacer?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Ir por el túnel",
+                "escena": 20
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Ir hacia la puerta negra",
+                "escena": 21
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "texto": "Aragorn consigue reclutar a los hombres de Gondor, que se unen a vosotros.\nEl siguiente punto del recorrido que hay que atravesar es Minas Morgul. Allí sufrís el ataque de los Nazgul, os derrotan y recuperan el Anillo.\n",
+        "puntosVida": -11,
+        "opciones": []
+    },
+    {
+        "id": 19,
+        "texto": "Os refugiáis en Osgiliath temporalmente hasta que los ataques constantes de orcos cesen pero la ciudad sufre un asedio por parte de los Nazgul y recuperan el Anillo.\n",
+        "puntosVida": -11,
+        "opciones": []
+    },
+    {
+        "id": 20,
+        "texto": "Decidís atravesar el túnel cuya salida lleva al oeste de Mordor pero, una vez dentro del túnel, descubrís que habéis llegado a la guarida de Ella-Laraña.\n¿Qué quieres hacer?\n",
+        "puntosVida": 0,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Enfrentar a la araña",
+                "escena": 22
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Intentar atravesar la guarida sin luchar",
+                "escena": 23
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "texto": "Os dirigís a la puerta negra donde todo el ejército de Sauron se prepara para la batalla final y conseguir el Anillo.\nSe desata la batalla y no podéis hacer nada contra las fuerzas de Mordor. Os derrotan y recuperan el Anillo.\n",
+        "puntosVida": -11,
+        "opciones": []
+    },
+    {
+        "id": 22,
+        "texto": "Os enfrentáis a Ella-Laraña y, aunque finalmente la derrotáis, Sam no logra sobrevivir.\nAl salir de la guarida de Ella os encontráis frente a la entrada a Mordor, ahí debéis decidir si ir todos juntos al Monte del Destino a destruir el Anillo o dividiros e intentar despistar a las tropas de Sauron.\n¿Qué quieres hacer?\n",
+        "puntosVida": -1,
+        "opciones": [
+            {
+                "numOp": 1,
+                "textoOp": "Ir todos juntos",
+                "escena": 24
+            },
+            {
+                "numOp": 2,
+                "textoOp": "Dividir el grupo",
+                "escena": 25
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "texto": "Intentáis atravesar la guarida de Ella-Laraña pero es veloz y ágil y consigue atrapar a uno de los vuestros.\nBoromir queda atrás y a la Comunidad le restan 8 puntos de vida por lo que no podéis llegar a Mordor.\n",
+        "puntosVida": -3,
+        "opciones": []
+    },
+    {
+        "id": 24,
+        "texto": "Al ir todos juntos al mismo punto, Sauron os localiza fácilmente con su gran ojo y alerta a los Nazgul, los cuales os atrapan y recuperan el Anillo.\n",
+        "puntosVida": -10,
+        "opciones": []
+    },
+    {
+        "id": 25,
+        "texto": "Dividís el grupo en dos. Mientras Aragorn y tú os adentraréis en el Monte, Gimli y Boromir intentarán despistar al ojo de Sauron para que no os localice.\nLa estrategia funciona, lográis entrar en el Monte del Destino y tirar el Anillo a la lava.\nLo habéis conseguido. La Tierra Media está a salvo.\n",
+        "puntosVida": 0,
+        "opciones": []
+    }
+]
