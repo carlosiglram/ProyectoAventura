@@ -13,5 +13,5 @@ En este caso, se eligió como temática central la saga de _El Señor de los Ani
 <br/><br/>
 #### 💻 Softwares utilizados
 ![IntelliJ_IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![MongoDB_GUI_Client](https://img.shields.io/badge/MongoDB_GUI_Client-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB_Compass](https://img.shields.io/badge/MongoDB_Compass-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Visual_Studio_Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
